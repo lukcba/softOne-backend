@@ -2,11 +2,12 @@ package com.softone.person
 
 import grails.rest.RestfulController
 
-class StocksController extends RestfulController {
-    StocksController(){
-        super(Stock)
-    }
+class OperatorController extends RestfulController{
 	static responseFormats = ['json', 'xml']
+
+    OperatorController(){
+        super(Operator)
+    }
 	
     def index() { }
 }

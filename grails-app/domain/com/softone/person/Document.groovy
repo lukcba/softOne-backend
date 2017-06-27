@@ -2,7 +2,7 @@ package com.softone.person
 
 import grails.rest.Resource
 
-@Resource(uri='/documents',superClass = DocumentsController)
+@Resource(uri='/documents',superClass = DocumentController)
 class Document {
 
     String name

@@ -3,7 +3,7 @@ package com.softone.person
 import grails.rest.Resource
 import person.PhoneType
 
-@Resource(uri='/phones',superClass = PhonesController)
+@Resource(uri='/phones',superClass = PhoneController)
 class Phone {
 
     String number

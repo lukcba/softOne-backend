@@ -2,8 +2,8 @@ package com.softone.person
 
 import grails.rest.RestfulController
 
-class ProductsController extends RestfulController{
-    ProductsController(){
+class ProductController extends RestfulController{
+    ProductController(){
         super(Product)
     }
 	static responseFormats = ['json', 'xml']

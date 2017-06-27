@@ -5,7 +5,7 @@ import person.Gender
 import person.IdentityType
 import person.MaritalStatus
 
-@Resource(uri='/persons',superClass = PersonsController)
+@Resource(uri='/persons',superClass = PersonController)
 class Person {
 
     String name

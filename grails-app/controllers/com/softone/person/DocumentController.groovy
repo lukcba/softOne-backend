@@ -2,11 +2,11 @@ package com.softone.person
 
 import grails.rest.RestfulController
 
-class SocialAssistanceController extends RestfulController{
+class DocumentController extends RestfulController{
     static responseFormats = ['json', 'xml']
 
-    SocialAssistanceController(){
-        super(SocialAssistance)
+    DocumentController(){
+        super(Document)
     }
 
     def index() { }

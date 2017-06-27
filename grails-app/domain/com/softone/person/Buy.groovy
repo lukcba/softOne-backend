@@ -2,7 +2,7 @@ package com.softone.person
 
 import grails.rest.Resource
 
-@Resource(uri='/buys',superClass = BuysController)
+@Resource(uri='/buys',superClass = BuyController)
 class Buy {
 
     Provider provider
@@ -16,6 +16,5 @@ class Buy {
 
     static mapping = {
         id generator: 'native', params: [sequence: 'seq_buy'], defaultValue: "nextval('seq_buy')"
-        sort name: 'asc'
     }
 }

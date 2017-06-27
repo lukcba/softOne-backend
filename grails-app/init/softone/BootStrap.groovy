@@ -1,6 +1,7 @@
 package softone
 
 import com.softone.person.Operator
+import com.softone.person.StudyLevel
 
 class BootStrap {
 

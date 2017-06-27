@@ -2,7 +2,7 @@ package com.softone.person
 
 import grails.rest.Resource
 
-@Resource(uri='/sales',superClass = SalesController)
+@Resource(uri='/sales',superClass = SaleController)
 class Sale {
     Provider provider
     Date createdAt

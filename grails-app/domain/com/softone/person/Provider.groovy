@@ -2,7 +2,7 @@ package com.softone.person
 
 import grails.rest.Resource
 
-@Resource(uri='/providers',formats=['json', 'xml'])
+@Resource(uri='/providers',superClass = ProviderController)
 class Provider {
     String businessName
     Date registrationDate

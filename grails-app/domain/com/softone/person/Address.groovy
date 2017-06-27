@@ -4,7 +4,7 @@ import grails.rest.Resource
 import person.AddressType
 
 
-@Resource(uri='/addresses',superClass = AddressesController)
+@Resource(uri='/addresses',superClass = AddressController)
 class Address {
 
     String street
@@ -16,10 +16,11 @@ class Address {
     String districts
     AddressType type
 
-    static constraints = {
-    }
-
     static mapping = {
         id generator: 'native', params: [sequence: 'seq_address'], defaultValue: "nextval('seq_address')"
+    }
+
+    static constraints = {
+        street nullable:false, blank:false, unique: true
     }
 }

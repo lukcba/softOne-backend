@@ -2,7 +2,7 @@ package com.softone.person
 
 import grails.rest.Resource
 
-@Resource(uri='/stocks',superClass = StocksController)
+@Resource(uri='/stocks',superClass = StockController)
 class Stock {
 
     static constraints = {

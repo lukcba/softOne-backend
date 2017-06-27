@@ -2,9 +2,10 @@ package com.softone.person
 
 import grails.rest.RestfulController
 
-class ProvidersController extends RestfulController{
+class ProviderController extends RestfulController{
     static responseFormats = ['json', 'xml']
-    ProvidersController(){
+
+    ProviderController(){
         super(Provider)
     }
 

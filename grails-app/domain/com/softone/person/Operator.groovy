@@ -2,7 +2,7 @@ package com.softone.person
 
 import grails.rest.Resource
 
-@Resource(uri='/operators',superClass = OperatorsController)
+@Resource(uri='/operators',superClass = OperatorController)
 class Operator {
 
     String name
