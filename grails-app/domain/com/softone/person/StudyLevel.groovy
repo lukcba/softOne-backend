@@ -2,7 +2,7 @@ package com.softone.person
 
 import grails.rest.Resource
 
-@Resource(uri='/studysLevel', superClass = StudyLevelController)
+@Resource(uri='/studyLevels')
 class StudyLevel {
 
     String name

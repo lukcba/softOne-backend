@@ -7,12 +7,12 @@ class BootStrap {
 
     def init = { servletContext ->
         importData()
-        new Operator(name:"The Stand",enabled:true).save()
-        new Operator(name:"Claro",enabled:true).save()
-        new Operator(name:"Personal",enabled:true).save()
+        new Operator(name: "The Stand", enabled: true).save()
+        new Operator(name: "Claro", enabled: true).save()
+        new Operator(name: "Personal", enabled: true).save()
     }
-    def importData={
-        Class.getResourceAsStream('/data' + File.separator + 'StudyLevel.csv').eachLine { String line ->
+    def importData = {
+        new File('data' + File.separator + 'StudyLevel.csv').eachLine { String line ->
             def row = line.split(";")
             String name = row[1]
             StudyLevel p = StudyLevel.findByName(name.trim())
@@ -22,6 +22,7 @@ class BootStrap {
             }
 
         }
+
     }
     def destroy = {
     }
