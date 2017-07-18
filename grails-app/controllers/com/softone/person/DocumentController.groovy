@@ -9,5 +9,4 @@ class DocumentController extends RestfulController{
         super(Document)
     }
 
-    def index() { }
 }

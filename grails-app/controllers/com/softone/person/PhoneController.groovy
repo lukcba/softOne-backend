@@ -9,5 +9,4 @@ class PhoneController extends RestfulController {
         super(Phone)
     }
 
-    def index() { }
 }

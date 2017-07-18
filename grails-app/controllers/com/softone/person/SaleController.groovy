@@ -9,5 +9,4 @@ class SaleController extends RestfulController {
         super(Sale)
     }
 
-    def index() { }
 }

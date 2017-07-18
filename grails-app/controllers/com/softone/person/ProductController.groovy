@@ -8,5 +8,4 @@ class ProductController extends RestfulController{
     }
 	static responseFormats = ['json', 'xml']
 	
-    def index() { }
 }

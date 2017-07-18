@@ -1,0 +1,10 @@
+import com.softone.person.Operator
+
+model{
+    Operator operator
+}
+json{
+    id operator.id
+    name operator.name
+    enabled operator.enabled
+}

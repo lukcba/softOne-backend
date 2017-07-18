@@ -9,5 +9,4 @@ class StudyLevelController extends RestfulController {
         super(StudyLevel)
     }
 	
-    def index() { }
 }

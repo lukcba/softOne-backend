@@ -9,5 +9,4 @@ class BuyController extends RestfulController{
         super(Buy)
     }
 
-    def index() { }
 }

@@ -9,5 +9,4 @@ class SocialAssistanceController extends RestfulController{
         super(SocialAssistance)
     }
 
-    def index() { }
 }

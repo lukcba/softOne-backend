@@ -7,6 +7,8 @@ class BootStrap {
 
     def init = { servletContext ->
         importData()
+        5.times { new Operator(name: "Operador ${it+1}", enabled: true).save() }
+
         new Operator(name: "The Stand", enabled: true).save()
         new Operator(name: "Claro", enabled: true).save()
         new Operator(name: "Personal", enabled: true).save()

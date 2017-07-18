@@ -9,5 +9,4 @@ class ProviderController extends RestfulController{
         super(Provider)
     }
 
-    def index() { }
 }

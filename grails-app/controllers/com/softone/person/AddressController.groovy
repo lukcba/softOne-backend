@@ -9,5 +9,4 @@ class AddressController extends RestfulController{
         super(Address)
     }
 
-    def index() { }
 }

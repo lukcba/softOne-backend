@@ -9,5 +9,4 @@ class PersonController extends RestfulController{
         super(Person)
     }
 
-    def index() { }
 }
